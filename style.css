@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;500;600;700;800;900&family=Frank+Ruhl+Libre:wght@700;900&display=swap');
+
+:root {
+    --clr-primary-400: rgba(0, 0, 0, 0.4);
+    --clr-primary-500: rgba(0, 0, 0, 0.5);
+    --clr-primary-600: rgba(0, 0, 0, 0.6);
+    --clr-primary-700: rgba(0, 0, 0, 0.7);
+    --clr-primary-800: rgba(0, 0, 0, 0.8);
+    --clr-primary-900: rgba(0, 0, 0, 0.9);
+    --clr-primary: rgba(0, 0, 0, 1);
+    --clr-secondary: rgba(255, 255, 255, 1);
+
+    --bg-blue: rgba(199, 221, 234, 1);
+    --bg-orange: rgba(241, 121, 73, 1);
+    --bg-yellow: rgba(250, 177, 49, 1);
+    --bg-lightgray: rgba(235, 235, 235, 1);
+    --bg-gray: rgba(169, 161, 158, 1);
+    --bg-darkgray: rgba(119, 117, 116, 1);
+
+    --fs-100: 0.625rem;
+    --fs-200: 0.688rem;
+    --fs-300: 0.875rem;
+    --fs-400: 1.063rem;
+    --fs-500: 2rem;
+    --fs-700: 2.188rem;
+    --fs-900: 2.813rem;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2 {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+h3,
+p,
+span {
+    font-family: 'Fira Sans', sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #e5e5e5;
+    position: relative;
+}
+.page-wrapper {
+    max-width: 1000px;
+    height: 100vh;
+    background: var(--bg-darkgray);
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
